@@ -1,0 +1,4 @@
+Import collection
+mongoimport -h ds217349.mlab.com:17349 -d gpv-db -c Projectdetails -u <user> -p <password> --file <input file>
+Export collection
+mongoexport -h ds217349.mlab.com:17349 -d gpv-db -c Projectdetails -u <user> -p <password> -o Projectdetails.json
